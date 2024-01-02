@@ -15,7 +15,7 @@ export default {
 </script>
 
 <template>
-  <div class="flex justify-center gap-20 my-28">
+  <div class="flex justify-center flex-wrap gap-20 my-28">
     <div
       class="max-w-sm rounded-3xl overflow-hidden bg-gray-900 text-white hover:shadow-[16px_-15px_28px_4px_#38BDF8] transition duration-300"
     >
@@ -51,16 +51,18 @@ export default {
     </div>
 
     <div
-      class="max-w-sm rounded-3xl overflow-hidden shadow-lg bg-gray-900 text-white"
+      class="max-w-sm rounded-3xl overflow-hidden bg-gray-900 text-white hover:shadow-[16px_-15px_28px_4px_#38BDF8] transition duration-300"
     >
+      <!-- IMMAGINE -->
       <img
         class="w-full h-80 hover:scale-110 transition duration-300 object-cover"
-        src="https://images.pexels.com/photos/417458/pexels-photo-417458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        src="https://images.pexels.com/photos/3661650/pexels-photo-3661650.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
         alt="Sunset in the mountains"
       />
+      <!-- TESTO -->
       <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-        <p class="text-white text-base">
+        <div class="my-4 font-bold text-3xl">The Coldest Sunset</div>
+        <p class="text-white">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
           quia, nulla! Maiores et perferendis eaque, exercitationem praesentium
           nihil.
@@ -83,16 +85,18 @@ export default {
     </div>
 
     <div
-      class="max-w-sm rounded-3xl overflow-hidden shadow-lg bg-gray-900 text-white"
+      class="max-w-sm rounded-3xl overflow-hidden bg-gray-900 text-white hover:shadow-[16px_-15px_28px_4px_#38BDF8] transition duration-300"
     >
+      <!-- IMMAGINE -->
       <img
         class="w-full h-80 hover:scale-110 transition duration-300 object-cover"
-        src="https://images.pexels.com/photos/2526105/pexels-photo-2526105.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        src="https://images.pexels.com/photos/3661650/pexels-photo-3661650.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
         alt="Sunset in the mountains"
       />
+      <!-- TESTO -->
       <div class="px-6 py-4">
-        <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-        <p class="text-white text-base">
+        <div class="my-4 font-bold text-3xl">The Coldest Sunset</div>
+        <p class="text-white">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
           quia, nulla! Maiores et perferendis eaque, exercitationem praesentium
           nihil.
