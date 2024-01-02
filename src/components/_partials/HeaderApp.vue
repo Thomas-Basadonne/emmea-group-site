@@ -25,9 +25,19 @@ export default {
         </a>
         <!-- Navigation links -->
         <ul class="my-3 sm:my-0 flex justify-between gap-4 cursor-pointer">
-          <li class="hover:text-neutral-400">Portfolio</li>
-          <li class="hover:text-neutral-400">Contact Us</li>
-          <li class="hover:text-neutral-400">Linkedin</li>
+          <li class="hover:text-neutral-400">
+            <router-link to="/portfolio">Portfolio</router-link>
+          </li>
+          <li class="hover:text-neutral-400">
+            <router-link to="/contact-us">Contact Us</router-link>
+          </li>
+          <li class="hover:text-neutral-400">
+            <a
+              href="https://www.linkedin.com/in/marco-malatesta/"
+              target="_blank"
+              >Linkedin</a
+            >
+          </li>
         </ul>
       </div>
     </nav>
