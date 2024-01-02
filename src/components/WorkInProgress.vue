@@ -1,5 +1,7 @@
 <script>
-// import MyComponent from "./components/MyComponent.vue";
+import HeaderApp from "./_partials/HeaderApp.vue";
+import JumboApp from "./_partials/JumboApp.vue";
+import FooterApp from "./_partials/FooterApp.vue";
 
 export default {
   data() {
@@ -8,13 +10,18 @@ export default {
     };
   },
 
-  // components: {
-  //   MyComponent,
-  // },
+  components: {
+    HeaderApp,
+    JumboApp,
+    FooterApp,
+  },
 };
 </script>
 
 <template>
+  <HeaderApp />
+  <JumboApp />
+
   <div class="bg-gray-200 font-sans leading-normal tracking-normal">
     <!-- Hero section -->
     <section class="bg-white py-20">
@@ -78,6 +85,7 @@ export default {
       </div>
     </section>
   </div>
+  <FooterApp />
 </template>
 
 <style lang="scss" scoped></style>
