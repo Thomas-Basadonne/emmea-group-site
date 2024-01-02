@@ -1,6 +1,4 @@
 <script>
-// import MyComponent from "./components/MyComponent.vue";
-
 export default {
   data() {
     return {
@@ -8,14 +6,32 @@ export default {
     };
   },
 
-  // components: {
-  //   MyComponent,
-  // },
+  components: {},
 };
 </script>
 
 <template>
-  <h1>{{ title }}</h1>
+  <header>
+    <!-- Navigation bar -->
+    <nav
+      class="relative flex w-full items-center justify-between bg-white py-2 text-neutral-600 shadow-lg dark:bg-gray-900 dark:text-neutral-200 md:flex-wrap md:justify-start"
+      data-te-navbar-ref
+    >
+      <div
+        class="flex w-full flex-wrap items-center justify-center sm:justify-between px-3"
+      >
+        <a href="/">
+          <img src="../../assets/img/logo-footer.png" alt="" class="w-44" />
+        </a>
+        <!-- Navigation links -->
+        <ul class="my-3 sm:my-0 flex justify-between gap-4 cursor-pointer">
+          <li class="hover:text-neutral-400">Portfolio</li>
+          <li class="hover:text-neutral-400">Contact Us</li>
+          <li class="hover:text-neutral-400">Linkedin</li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 </template>
 
 <style lang="scss" scoped></style>
