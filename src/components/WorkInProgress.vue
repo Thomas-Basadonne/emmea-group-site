@@ -1,5 +1,4 @@
 <script>
-import HeaderApp from "./_partials/HeaderApp.vue";
 import JumboApp from "./_partials/JumboApp.vue";
 // import CardApp from "./_partials/CardApp.vue";
 import FooterApp from "./_partials/FooterApp.vue";
@@ -12,7 +11,6 @@ export default {
   },
 
   components: {
-    HeaderApp,
     JumboApp,
     FooterApp,
     // CardApp,
@@ -21,7 +19,6 @@ export default {
 </script>
 
 <template>
-  <HeaderApp />
   <JumboApp />
   <CardApp />
 

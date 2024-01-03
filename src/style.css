@@ -1,3 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    @apply selection:bg-sky-500 min-h-[100vh];
+    font-family: "Roboto", sans-serif;
+  }
+
+  /* Portfolio */
+  .label {
+    @apply inline-block bg-sky-400 rounded-full px-3 py-1 text-sm font-semibold text-gray-600 mr-2 mb-2;
+  }
+}

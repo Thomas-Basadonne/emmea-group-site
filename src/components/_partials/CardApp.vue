@@ -35,18 +35,9 @@ export default {
         </p>
       </div>
       <div class="px-6 pt-4 pb-2">
-        <span
-          class="inline-block bg-sky-400 rounded-full px-3 py-1 text-sm font-semibold text-gray-600 mr-2 mb-2"
-          >#photography</span
-        >
-        <span
-          class="inline-block bg-sky-400 rounded-full px-3 py-1 text-sm font-semibold text-gray-600 mr-2 mb-2"
-          >#travel</span
-        >
-        <span
-          class="inline-block bg-sky-400 rounded-full px-3 py-1 text-sm font-semibold text-gray-600 mr-2 mb-2"
-          >#winter</span
-        >
+        <span class="label">#photography</span>
+        <span class="label">#travel</span>
+        <span class="label">#winter</span>
       </div>
     </div>
 
@@ -69,18 +60,9 @@ export default {
         </p>
       </div>
       <div class="px-6 pt-4 pb-2">
-        <span
-          class="inline-block bg-sky-400 rounded-full px-3 py-1 text-sm font-semibold text-gray-600 mr-2 mb-2"
-          >#photography</span
-        >
-        <span
-          class="inline-block bg-sky-400 rounded-full px-3 py-1 text-sm font-semibold text-gray-600 mr-2 mb-2"
-          >#travel</span
-        >
-        <span
-          class="inline-block bg-sky-400 rounded-full px-3 py-1 text-sm font-semibold text-gray-600 mr-2 mb-2"
-          >#winter</span
-        >
+        <span class="label">#photography</span>
+        <span class="label">#travel</span>
+        <span class="label">#winter</span>
       </div>
     </div>
 
@@ -103,18 +85,9 @@ export default {
         </p>
       </div>
       <div class="px-6 pt-4 pb-2">
-        <span
-          class="inline-block bg-sky-400 rounded-full px-3 py-1 text-sm font-semibold text-gray-600 mr-2 mb-2"
-          >#photography</span
-        >
-        <span
-          class="inline-block bg-sky-400 rounded-full px-3 py-1 text-sm font-semibold text-gray-600 mr-2 mb-2"
-          >#travel</span
-        >
-        <span
-          class="inline-block bg-sky-400 rounded-full px-3 py-1 text-sm font-semibold text-gray-600 mr-2 mb-2"
-          >#winter</span
-        >
+        <span class="label">#photography</span>
+        <span class="label">#travel</span>
+        <span class="label">#winter</span>
       </div>
     </div>
   </div>

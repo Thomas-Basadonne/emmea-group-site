@@ -38,7 +38,7 @@ export default {
             data-te-ripple-init
             data-te-ripple-color="light"
           >
-            Visita il Portfolio
+            <router-link to="/portfolio">Visita il Portfolio</router-link>
           </button>
         </div>
       </div>
