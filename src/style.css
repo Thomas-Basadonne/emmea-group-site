@@ -2,7 +2,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+:root {
+  --my-color: #fff;
+  /* or any other variables/style */
+}
+[data-theme="dark"] {
+  --my-color: #000;
+}
+[data-theme="light"] {
+  --my-color: #ffabc8;
+}
+body {
+  background-color: var(--my-color);
+}
 @layer base {
   html {
     @apply selection:bg-sky-500 min-h-[100vh];
@@ -12,5 +24,9 @@
   /* Portfolio */
   .label {
     @apply inline-block bg-sky-400 rounded-full px-3 py-1 text-sm font-semibold text-gray-600 mr-2 mb-2;
+  }
+
+  .shadow-card {
+    @apply shadow-[16px_-15px_28px_4px_#111827] hover:shadow-[16px_-15px_28px_4px_#38BDF8] transition duration-500;
   }
 }
