@@ -2,22 +2,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-:root {
-  --my-color: #fff;
-  /* or any other variables/style */
-}
-[data-theme="dark"] {
-  --my-color: #000;
-}
-[data-theme="light"] {
-  --my-color: #ffabc8;
-}
-body {
-  background-color: var(--my-color);
-}
+
 @layer base {
-  html {
-    @apply selection:bg-sky-500 min-h-[100vh];
+  html,
+  body {
+    @apply selection:bg-sky-500 min-h-[100vh] bg-light-background dark:bg-dark-primary text-light-text dark:text-dark-text;
     font-family: "Roboto", sans-serif;
   }
 

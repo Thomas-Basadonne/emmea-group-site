@@ -7,7 +7,9 @@ import FooterApp from "./components/_partials/FooterApp.vue";
   <!-- <WorkInProgress /> -->
   <div class="flex flex-col min-h-screen">
     <HeaderApp />
-    <router-view class="flex-1"></router-view>
+    <div class="flex-1">
+      <router-view></router-view>
+    </div>
     <FooterApp />
   </div>
 </template>
