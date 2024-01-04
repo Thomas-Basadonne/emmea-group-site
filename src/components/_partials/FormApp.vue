@@ -32,10 +32,10 @@ export default {
     <div
       class="max-w-md mx-auto bg-white dark:bg-dark-black p-8 shadow-lg rounded-md"
     >
-      <h2 class="text-2xl font-semibold mb-6 text-center">
+      <h2 class="text-2xl font-semibold mb-4 text-center">
         Manda un messaggio!
       </h2>
-
+      <div class="divider"></div>
       <!-- Nome -->
       <div class="mb-4">
         <label for="name" class="block text-dark-text text-sm font-bold mb-2"
