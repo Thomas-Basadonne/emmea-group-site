@@ -1,71 +1,29 @@
 <script>
+import FormApp from "./_partials/FormApp.vue";
+
 export default {
   data() {
     return {
       title: "Hello contatto",
     };
   },
+  components: {
+    FormApp,
+  },
 };
 </script>
 
 <template>
-  <div class="my-10 max-w-md mx-auto bg-white p-6 rounded-md shadow-md">
-    <h2 class="text-2xl font-semibold mb-4">Contact Us</h2>
-
-    <form>
-      <!-- Nome -->
-      <div class="mb-4">
-        <label for="name" class="block text-sm font-medium text-gray-600"
-          >Name</label
-        >
-        <input
-          type="text"
-          id="name"
-          name="name"
-          class="mt-1 p-2 w-full border rounded-md"
-          placeholder="John Doe"
-          required
-        />
-      </div>
-
-      <!-- Email -->
-      <div class="mb-4">
-        <label for="email" class="block text-sm font-medium text-gray-600"
-          >Email</label
-        >
-        <input
-          type="email"
-          id="email"
-          name="email"
-          class="mt-1 p-2 w-full border rounded-md"
-          placeholder="john@example.com"
-          required
-        />
-      </div>
-
-      <!-- Messaggio -->
-      <div class="mb-6">
-        <label for="message" class="block text-sm font-medium text-gray-600"
-          >Message</label
-        >
-        <textarea
-          id="message"
-          name="message"
-          rows="4"
-          class="mt-1 p-2 w-full border rounded-md"
-          placeholder="Write your message here..."
-          required
-        ></textarea>
-      </div>
-
-      <!-- Pulsante Invia -->
-      <button
-        type="submit"
-        class="bg-blue-500 text-white p-2 rounded-md hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-300"
-      >
-        Send
-      </button>
-    </form>
+  <div class="my-10">
+    <h1 class="text-center font-bold text-6xl">Contac Us</h1>
+    <p class="text-lg mt-6 text-center">
+      Scrivici per maggiori informazioni e collaborazioni.
+    </p>
+  </div>
+  <div class="flex justify-center items-center gap-20">
+    <div class="left-col w-1/4">piippo</div>
+    <div class="divider divider-horizontal">OR</div>
+    <div class="right-col w-1/4"><FormApp /></div>
   </div>
 </template>
 

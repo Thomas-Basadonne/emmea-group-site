@@ -8,30 +8,30 @@ export default {
         {
           imageSrc:
             "https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=600",
-          title: "Shoes!",
+          title: "test 1",
           description: "If a dog chews shoes, whose shoes does he choose?",
-          labels: ["Fashion", "Products"],
+          labels: ["Laser"],
         },
         {
           imageSrc:
             "https://images.pexels.com/photos/14866387/pexels-photo-14866387.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-          title: "Nike",
+          title: "test 2",
           description: "If a dog chews shoes, whose shoes does he choose?",
-          labels: ["Fashion", "Products"],
+          labels: ["Fiamme", "Laser"],
         },
         {
           imageSrc:
             "https://images.pexels.com/photos/1120162/pexels-photo-1120162.jpeg?auto=compress&cs=tinysrgb&w=600",
-          title: "jordan",
+          title: "test 3",
           description: "If a dog chews shoes, whose shoes does he choose?",
-          labels: ["Fashion", "Products"],
+          labels: ["Laser"],
         },
         {
           imageSrc:
             "https://images.pexels.com/photos/1387174/pexels-photo-1387174.jpeg?auto=compress&cs=tinysrgb&w=600",
-          title: "Boh!",
+          title: "test 4",
           description: "If a dog chews shoes, whose shoes does he choose?",
-          labels: ["Fashion"],
+          labels: ["Fiamme"],
         },
       ],
     };
