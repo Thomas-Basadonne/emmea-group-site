@@ -1,7 +1,4 @@
 <script>
-import { onMounted } from "vue";
-import { themeChange } from "theme-change";
-
 export default {
   data() {
     return {
@@ -12,14 +9,10 @@ export default {
   // components: {
   //   MyComponent,
   // },
-
-  
 };
 </script>
 
 <template>
-  
-
   <div class="flex justify-center flex-wrap gap-20 my-28">
     <!-- <div
       class="max-w-sm rounded-3xl overflow-hidden bg-gray-900 text-white shadow-card transition duration-300"

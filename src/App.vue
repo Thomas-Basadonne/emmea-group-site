@@ -1,5 +1,4 @@
 <script setup>
-import WorkInProgress from "./components/WorkInProgress.vue";
 import HeaderApp from "./components/_partials/HeaderApp.vue";
 import FooterApp from "./components/_partials/FooterApp.vue";
 </script>
