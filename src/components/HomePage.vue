@@ -38,43 +38,43 @@ export default {
         <div class="carousel carousel-center rounded-box">
           <div class="carousel-item">
             <img
-              src="https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg"
+              src="https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="Pizza"
             />
           </div>
           <div class="carousel-item">
             <img
-              src="https://daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg"
+              src="https://images.pexels.com/photos/1120162/pexels-photo-1120162.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="Pizza"
             />
           </div>
           <div class="carousel-item">
             <img
-              src="https://daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg"
+              src="https://images.pexels.com/photos/1677710/pexels-photo-1677710.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="Pizza"
             />
           </div>
           <div class="carousel-item">
             <img
-              src="https://daisyui.com/images/stock/photo-1494253109108-2e30c049369b.jpg"
+              src="https://images.pexels.com/photos/2034851/pexels-photo-2034851.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="Pizza"
             />
           </div>
           <div class="carousel-item">
             <img
-              src="https://daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.jpg"
+              src="https://images.pexels.com/photos/1306791/pexels-photo-1306791.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="Pizza"
             />
           </div>
           <div class="carousel-item">
             <img
-              src="https://daisyui.com/images/stock/photo-1559181567-c3190ca9959b.jpg"
+              src="https://images.pexels.com/photos/1047940/pexels-photo-1047940.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="Pizza"
             />
           </div>
           <div class="carousel-item">
             <img
-              src="https://daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.jpg"
+              src="https://images.pexels.com/photos/431722/pexels-photo-431722.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="Pizza"
             />
           </div>

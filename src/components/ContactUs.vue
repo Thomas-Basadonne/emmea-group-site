@@ -23,7 +23,7 @@ export default {
   <div
     class="flex flex-col md:flex-row justify-center items-center gap-20 max-h-full"
   >
-    <div class="left-col w-1/4 dark:bg-dark-black py-4 px-8 rounded-lg">
+    <div class="left-col md:w-1/4 dark:bg-dark-black py-4 px-8 rounded-lg">
       <h2 class="text-2xl font-semibold mb-6 text-center my-6">
         I nostri Contatti
       </h2>
@@ -63,8 +63,10 @@ export default {
         </div>
       </div>
     </div>
-    <div class="divider divider-horizontal">OR</div>
-    <div class="right-col w-1/4"><FormApp /></div>
+
+    <div class="divider md:divider-horizontal">OR</div>
+
+    <div class="right-col md:w-1/4"><FormApp /></div>
   </div>
 </template>
 
