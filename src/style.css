@@ -16,6 +16,6 @@
   }
 
   .shadow-card {
-    @apply shadow-[16px_-15px_28px_4px_#111827] hover:shadow-[16px_-15px_28px_4px_#38BDF8] transition duration-500;
+    @apply shadow-[10px_-9px_20px_2px_#000000] hover:shadow-[10px_-9px_20px_2px_#D72323] transition duration-500;
   }
 }
