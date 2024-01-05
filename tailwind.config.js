@@ -12,10 +12,10 @@ export default {
           black: "#000000",
         },
         light: {
-          primary: "#AAD7D9",
+          primary: "#ACA69A",
           accent: "#FBF9F1",
           background: "#E5E1DA",
-          text: "#92C7CF",
+          text: "#333333",
         },
       },
     },

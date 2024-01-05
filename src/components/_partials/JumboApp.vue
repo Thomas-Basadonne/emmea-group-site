@@ -29,12 +29,12 @@ export default {
       style="background-color: rgba(0, 0, 0, 0.75)"
     >
       <div class="flex h-full items-center justify-center">
-        <div class="px-6 text-center dark:text-dark-text md:px-12">
+        <div class="px-6 text-center text-dark-text md:px-12">
           <h1 class="mb-6 text-6xl font-black">Emmea Group</h1>
           <h3 class="mb-8 text-3xl font-bold">Make it possible!</h3>
           <button
             type="button"
-            class="btn btn-neutral dark:text-dark-text hover:text-dark-red hover:border-2 hover:border-dark-red"
+            class="btn-jumbo"
             data-te-ripple-init
             data-te-ripple-color="light"
           >

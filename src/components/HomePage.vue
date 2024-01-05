@@ -37,45 +37,54 @@ export default {
         </p>
 
         <!-- CAROSELLO -->
-        <div class="carousel carousel-center rounded-box">
+        <div
+          class="carousel carousel-center max-w-full p-4 space-x-4 rounded-box"
+        >
           <div class="carousel-item">
             <img
+              class="rounded-lg"
               src="https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="Pizza"
             />
           </div>
           <div class="carousel-item">
             <img
+              class="rounded-lg"
               src="https://images.pexels.com/photos/1120162/pexels-photo-1120162.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="Pizza"
             />
           </div>
           <div class="carousel-item">
             <img
+              class="rounded-lg"
               src="https://images.pexels.com/photos/1677710/pexels-photo-1677710.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="Pizza"
             />
           </div>
           <div class="carousel-item">
             <img
+              class="rounded-lg"
               src="https://images.pexels.com/photos/2034851/pexels-photo-2034851.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="Pizza"
             />
           </div>
           <div class="carousel-item">
             <img
+              class="rounded-lg"
               src="https://images.pexels.com/photos/1306791/pexels-photo-1306791.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="Pizza"
             />
           </div>
           <div class="carousel-item">
             <img
+              class="rounded-lg"
               src="https://images.pexels.com/photos/1047940/pexels-photo-1047940.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="Pizza"
             />
           </div>
           <div class="carousel-item">
             <img
+              class="rounded-lg"
               src="https://images.pexels.com/photos/431722/pexels-photo-431722.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="Pizza"
             />
@@ -83,16 +92,18 @@ export default {
         </div>
 
         <!-- TIMELINE -->
-        <div class="overflow-x-auto">
+        <div class="overflow-x-auto text-dark-text">
           <ul class="timeline">
             <li>
-              <div class="timeline-start">1984</div>
+              <div class="timeline-start dark:text-dark-text text-light-text">
+                1984
+              </div>
               <div class="timeline-middle">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
-                  class="w-5 h-5"
+                  class="w-5 h-5 dark:text-dark-text text-light-text"
                 >
                   <path
                     fill-rule="evenodd"
@@ -108,13 +119,15 @@ export default {
             </li>
             <li>
               <hr />
-              <div class="timeline-start">1998</div>
+              <div class="timeline-start dark:text-dark-text text-light-text">
+                1998
+              </div>
               <div class="timeline-middle">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
-                  class="w-5 h-5"
+                  class="w-5 h-5 dark:text-dark-text text-light-text"
                 >
                   <path
                     fill-rule="evenodd"
@@ -128,13 +141,15 @@ export default {
             </li>
             <li>
               <hr />
-              <div class="timeline-start">2001</div>
+              <div class="timeline-start dark:text-dark-text text-light-text">
+                2001
+              </div>
               <div class="timeline-middle">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
-                  class="w-5 h-5"
+                  class="w-5 h-5 dark:text-dark-text text-light-text"
                 >
                   <path
                     fill-rule="evenodd"
@@ -148,13 +163,15 @@ export default {
             </li>
             <li>
               <hr />
-              <div class="timeline-start">2007</div>
+              <div class="timeline-start dark:text-dark-text text-light-text">
+                2007
+              </div>
               <div class="timeline-middle">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
-                  class="w-5 h-5"
+                  class="w-5 h-5 dark:text-dark-text text-light-text"
                 >
                   <path
                     fill-rule="evenodd"
@@ -168,13 +185,15 @@ export default {
             </li>
             <li>
               <hr />
-              <div class="timeline-start">2015</div>
+              <div class="timeline-start dark:text-dark-text text-light-text">
+                2015
+              </div>
               <div class="timeline-middle">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
-                  class="w-5 h-5"
+                  class="w-5 h-5 dark:text-dark-text text-light-text"
                 >
                   <path
                     fill-rule="evenodd"
@@ -215,8 +234,13 @@ export default {
         />
       </div>
 
-      <div class="faq mt-6">
-        <h3 class="text-center font-bold text-3xl my-3">Hai dei dubbi?</h3>
+      <div class="faq mt-6 text-dark-text">
+        <h3
+          class="text-center font-bold text-3xl my-3 text-light-text dark:text-dark-text"
+        >
+          Hai dei dubbi?
+        </h3>
+
         <div class="collapse collapse-arrow bg-base-200 my-4">
           <input type="radio" name="my-accordion-2" checked="checked" />
           <div class="collapse-title text-xl font-medium">

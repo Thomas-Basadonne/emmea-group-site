@@ -6,8 +6,13 @@
 @layer base {
   html,
   body {
-    @apply selection:bg-sky-500 min-h-[100vh] bg-light-background dark:bg-dark-primary text-light-text dark:text-dark-text;
+    @apply selection:bg-red-200 min-h-[100vh] bg-light-background dark:bg-dark-primary text-light-text dark:text-dark-text;
     font-family: "Raleway", sans-serif;
+  }
+
+  /* Jumbo */
+  .btn-jumbo {
+    @apply btn bg-light-primary dark:bg-dark-primary hover:bg-light-primary hover:dark:bg-dark-primary text-white dark:text-dark-text hover:text-dark-red hover:border-2 hover:border-dark-red;
   }
 
   /* Portfolio */

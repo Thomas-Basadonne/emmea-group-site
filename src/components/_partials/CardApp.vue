@@ -65,7 +65,7 @@ export default {
   <div class="flex justify-center sm:justify-end mx-8 md:mx-10 lg:mx-12">
     <select
       v-model="selectedLabel"
-      class="select select-bordered w-full max-w-xs"
+      class="select select-bordered w-full max-w-xs text-dark-text"
     >
       <option disabled value>Filtra progetti</option>
       <option value="">Mostra tutti i progetti</option>
@@ -81,7 +81,7 @@ export default {
     <div
       v-for="(project, index) in filteredProjects"
       :key="index"
-      class="card w-80 bg-base-100 shadow-card"
+      class="card w-80 bg-base-100 shadow-card text-dark-text"
     >
       <figure>
         <img

@@ -21,13 +21,15 @@ export default {
     </p>
   </div>
   <div
-    class="flex flex-col md:flex-row justify-center items-center gap-20 max-h-full"
+    class="flex flex-col md:flex-row justify-center items-center md:gap-10 lg:gap-12 max-h-full mb-10 mx-8"
   >
-    <div class="left-col md:w-1/4 dark:bg-dark-black py-4 px-8 rounded-lg">
+    <div
+      class="left-col md:w-2/4 xl:w-2/6 bg-white dark:bg-dark-black py-4 px-8 rounded-lg h-full"
+    >
       <h2 class="text-2xl font-semibold mb-6 text-center my-6">
         I nostri Contatti
       </h2>
-      <div class="divider"></div>
+      <div class="divider mx-8 md:mx-10 lg:mx-12"></div>
       <div class="contact-info">
         <div class="contact flex items-center mb-4">
           <font-awesome-icon class="mr-5 ml-2" :icon="['far', 'envelope']" />
@@ -66,7 +68,7 @@ export default {
 
     <div class="divider md:divider-horizontal">OR</div>
 
-    <div class="right-col md:w-1/4"><FormApp /></div>
+    <div class="right-col md:w-2/4 xl:w-2/6 h-full"><FormApp /></div>
   </div>
 </template>
 

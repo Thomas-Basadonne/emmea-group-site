@@ -18,7 +18,7 @@ export default {
   <header>
     <!-- Navigation bar -->
     <nav
-      class="relative flex w-full items-center justify-between bg-white py-2 text-neutral-600 shadow-lg dark:bg-dark-black dark:text-dark-text md:flex-wrap md:justify-start"
+      class="relative flex w-full items-center justify-between bg-light-primary py-2 text-neutral-600 shadow-lg dark:bg-dark-black dark:text-dark-text md:flex-wrap md:justify-start"
       data-te-navbar-ref
     >
       <div
