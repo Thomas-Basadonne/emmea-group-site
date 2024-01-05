@@ -1,12 +1,16 @@
 <script>
+import ThemeToggle from "./ThemeToggle.vue";
+import { useDark, useToggle } from "@vueuse/core";
+
 export default {
-  data() {
-    return {
-      title: "Hello world",
-    };
+  setup() {
+    const isDark = useDark();
+    const toggleDark = useToggle(isDark);
+
+    return { isDark, toggleDark };
   },
 
-  components: {},
+  components: { ThemeToggle },
 };
 </script>
 
@@ -24,7 +28,9 @@ export default {
           <img src="../../assets/img/logo-footer.png" alt="" class="w-44" />
         </a>
         <!-- Navigation links -->
-        <ul class="my-3 sm:my-0 flex justify-between gap-4 cursor-pointer">
+        <ul
+          class="my-3 sm:my-0 flex items-center justify-between gap-4 cursor-pointer"
+        >
           <li class="hover:text-dark-red">
             <router-link to="/portfolio">Portfolio</router-link>
           </li>
@@ -37,6 +43,9 @@ export default {
               target="_blank"
               >Linkedin</a
             >
+          </li>
+          <li class="mt-2 sm:mt-1">
+            <ThemeToggle :isDark="isDark" :toggleDark="toggleDark" />
           </li>
         </ul>
       </div>
