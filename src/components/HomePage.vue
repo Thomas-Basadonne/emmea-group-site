@@ -1,5 +1,6 @@
 <script>
 import JumboApp from "./_partials/JumboApp.vue";
+import SliderApp from "./_partials/SliderApp.vue";
 
 export default {
   data() {
@@ -10,6 +11,7 @@ export default {
 
   components: {
     JumboApp,
+    SliderApp,
   },
 };
 </script>
@@ -272,58 +274,8 @@ export default {
         per ottenere una visione completa delle nostre competenze e
         realizzazioni!
       </p>
-      <div class="carousel relative">
-        <div id="item1" class="carousel-item w-full relative">
-          <img
-            src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg"
-            class="w-full rounded-lg"
-          />
-          <p
-            class="rounded-t-lg carousel-text absolute top-0 left-0 w-full bg-light-primary text-light-text dark:text-white dark:bg-black text-center p-0 sm:p-1 md:p-2"
-          >
-            Cliente 1
-          </p>
-        </div>
-        <div id="item2" class="carousel-item w-full relative">
-          <img
-            src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg"
-            class="w-full rounded-lg"
-          />
-          <p
-            class="rounded-t-lg carousel-text absolute top-0 left-0 w-full bg-light-primary text-light-text dark:text-white dark:bg-black text-center p-0 sm:p-1 md:p-2"
-          >
-            Cliente 2
-          </p>
-        </div>
-        <div id="item3" class="carousel-item w-full relative">
-          <img
-            src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg"
-            class="w-full rounded-lg"
-          />
-          <p
-            class="rounded-t-lg carousel-text absolute top-0 left-0 w-full bg-light-primary text-light-text dark:text-white dark:bg-black text-center p-0 sm:p-1 md:p-2"
-          >
-            Cliente 3
-          </p>
-        </div>
-        <div id="item4" class="carousel-item w-full relative">
-          <img
-            src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
-            class="w-full rounded-lg"
-          />
-          <p
-            class="rounded-t-lg carousel-text absolute top-0 left-0 w-full bg-light-primary text-light-text dark:text-white dark:bg-black text-center p-0 sm:p-1 md:p-2"
-          >
-            Cliente 4
-          </p>
-        </div>
-      </div>
-      <div class="flex justify-center w-full py-2 gap-2">
-        <a href="#item1" class="btn btn-xs">1</a>
-        <a href="#item2" class="btn btn-xs">2</a>
-        <a href="#item3" class="btn btn-xs">3</a>
-        <a href="#item4" class="btn btn-xs">4</a>
-        <router-link to="/portfolio" class="btn btn-xs">Portfolio</router-link>
+      <div class="w-full flex justify-center items-center my-10">
+        <SliderApp />
       </div>
     </div>
   </section>

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;1,900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,7 +7,7 @@
   html,
   body {
     @apply selection:bg-sky-500 min-h-[100vh] bg-light-background dark:bg-dark-primary text-light-text dark:text-dark-text;
-    font-family: "Roboto", sans-serif;
+    font-family: "Raleway", sans-serif;
   }
 
   /* Portfolio */
