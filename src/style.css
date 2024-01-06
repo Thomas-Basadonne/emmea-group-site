@@ -8,6 +8,7 @@
   body {
     @apply selection:bg-red-200 min-h-[100vh] bg-light-background dark:bg-dark-primary text-light-text dark:text-dark-text;
     font-family: "Raleway", sans-serif;
+    cursor: none;
   }
 
   /* Jumbo */
