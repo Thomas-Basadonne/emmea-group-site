@@ -29,7 +29,7 @@ export default {
         </a>
         <!-- Navigation links -->
         <ul
-          class="my-3 sm:my-0 flex items-center justify-between gap-4 cursor-pointer"
+          class="my-3 sm:my-0 flex items-center justify-between gap-4 cursor-none"
         >
           <li class="hover:text-dark-red">
             <router-link to="/portfolio">Portfolio</router-link>

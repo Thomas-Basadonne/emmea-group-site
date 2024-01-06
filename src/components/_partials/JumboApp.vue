@@ -34,7 +34,7 @@ export default {
           <h3 class="mb-8 text-3xl font-bold">Make it possible!</h3>
           <button
             type="button"
-            class="btn-jumbo"
+            class="btn-jumbo cursor-none"
             data-te-ripple-init
             data-te-ripple-color="light"
           >

@@ -81,7 +81,6 @@ export default {
   width: 80px;
   border-radius: 0.75rem;
   background-size: cover;
-  cursor: pointer;
   overflow: hidden;
   border-radius: 2rem;
   margin: 0 10px;

@@ -100,7 +100,7 @@ export default {
       <div class="flex justify-end">
         <button
           @click="submitForm"
-          class="bg-light-primary dark:bg-dark-primary text-white px-4 py-2 rounded-md hover:bg-dark-red transition duration-300"
+          class="bg-light-primary dark:bg-dark-primary text-white px-4 py-2 rounded-md hover:bg-dark-red transition duration-300 cursor-none"
         >
           Invia
         </button>

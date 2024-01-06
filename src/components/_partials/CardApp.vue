@@ -65,7 +65,7 @@ export default {
   <div class="flex justify-center sm:justify-end mx-8 md:mx-10 lg:mx-12">
     <select
       v-model="selectedLabel"
-      class="select select-bordered w-full max-w-xs text-dark-text"
+      class="select select-bordered w-full max-w-xs text-dark-text cursor-none"
     >
       <option disabled value>Filtra progetti</option>
       <option value="">Mostra tutti i progetti</option>
