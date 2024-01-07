@@ -40,10 +40,14 @@ export default {
             </h2>
             <ul class="text-gray-500 dark:text-dark-text font-medium">
               <li class="mb-4">
-                <a href="" class="hover:underline">Portfolio</a>
+                <router-link to="/portfolio" class="hover:underline"
+                  >Portfolio</router-link
+                >
               </li>
               <li>
-                <a href="" class="hover:underline">Contact Us</a>
+                <router-link to="/contact-us" class="hover:underline"
+                  >Contact Us</router-link
+                >
               </li>
             </ul>
           </div>
@@ -55,10 +59,20 @@ export default {
             </h2>
             <ul class="text-gray-500 dark:text-dark-text font-medium">
               <li class="mb-4">
-                <a href="" class="hover:underline">Instagram</a>
+                <a
+                  href="https://www.instagram.com/emmeagroup/"
+                  target="_blank"
+                  class="hover:underline"
+                  >Instagram</a
+                >
               </li>
               <li>
-                <a href="" class="hover:underline">Linkedin</a>
+                <a
+                  href="https://www.linkedin.com/in/marco-malatesta/"
+                  target="_blank"
+                  class="hover:underline"
+                  >Linkedin</a
+                >
               </li>
             </ul>
           </div>
@@ -70,10 +84,14 @@ export default {
             </h2>
             <ul class="text-gray-500 dark:text-dark-text font-medium">
               <li class="mb-4">
-                <a href="#" class="hover:underline">Privacy Policy</a>
+                <RouterLink to="/termini-condizioni" class="hover:underline"
+                  >Terms &amp; Conditions</RouterLink
+                >
               </li>
               <li>
-                <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                <RouterLink to="/privacy-policy" class="hover:underline"
+                  >Privacy Policy</RouterLink
+                >
               </li>
             </ul>
           </div>
