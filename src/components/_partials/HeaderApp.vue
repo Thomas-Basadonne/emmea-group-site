@@ -1,6 +1,7 @@
 <script>
 import ThemeToggle from "./ThemeToggle.vue";
 import { useDark, useToggle } from "@vueuse/core";
+import { gsap } from "gsap/gsap-core";
 
 export default {
   setup() {
@@ -8,6 +9,25 @@ export default {
     const toggleDark = useToggle(isDark);
 
     return { isDark, toggleDark };
+  },
+
+  mounted() {
+    gsap.set([".logo", ".nav li"], {
+      y: -200,
+    });
+
+    gsap.to(".logo", {
+      y: 0,
+      duration: 2,
+      ease: "elastic",
+    });
+
+    gsap.to(".nav li", {
+      y: 0,
+      duration: 2,
+      ease: "power2.out",
+      stagger: 0.2,
+    });
   },
 
   components: { ThemeToggle },
@@ -25,11 +45,15 @@ export default {
         class="flex w-full flex-wrap items-center justify-center sm:justify-between px-3"
       >
         <a href="/">
-          <img src="../../assets/img/logo-footer.png" alt="" class="w-44" />
+          <img
+            src="../../assets/img/logo-footer.png"
+            alt=""
+            class="w-44 logo"
+          />
         </a>
         <!-- Navigation links -->
         <ul
-          class="my-3 sm:my-0 flex items-center justify-between gap-4 cursor-none"
+          class="my-3 sm:my-0 flex items-center justify-between gap-4 cursor-none nav"
         >
           <li class="hover:text-dark-red">
             <router-link to="/portfolio">Portfolio</router-link>

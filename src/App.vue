@@ -1,15 +1,3 @@
-<template>
-  <div class="flex flex-col min-h-screen">
-    <HeaderApp />
-    <div class="flex-1">
-      <router-view></router-view>
-    </div>
-    <FooterApp />
-    <div ref="cursorOuter" class="cursor cursor--large"></div>
-    <div ref="cursorInner" class="cursor cursor--small"></div>
-  </div>
-</template>
-
 <script>
 import HeaderApp from "./components/_partials/HeaderApp.vue";
 import FooterApp from "./components/_partials/FooterApp.vue";
@@ -33,7 +21,7 @@ export default {
   },
   methods: {
     updateCursorPosition(e) {
-      const cursorOuter = this.$refs.cursorOuter; // Aggiungi questa riga per ottenere il riferimento corretto
+      const cursorOuter = this.$refs.cursorOuter;
 
       gsap.to(this.$refs.cursorOuter, {
         duration: 0.2,
@@ -59,6 +47,18 @@ export default {
   },
 };
 </script>
+
+<template>
+  <div class="flex flex-col min-h-screen">
+    <HeaderApp />
+    <div class="flex-1">
+      <router-view></router-view>
+    </div>
+    <FooterApp />
+    <div ref="cursorOuter" class="hidden sm:block cursor cursor--large"></div>
+    <div ref="cursorInner" class="hidden sm:block cursor cursor--small"></div>
+  </div>
+</template>
 
 <style lang="css">
 .cursor {

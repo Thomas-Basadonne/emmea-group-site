@@ -1,5 +1,6 @@
 <script>
 import FormApp from "./_partials/FormApp.vue";
+import { gsap } from "gsap/gsap-core";
 
 export default {
   data() {
@@ -10,12 +11,22 @@ export default {
   components: {
     FormApp,
   },
+
+  mounted() {
+    gsap.from(".contact-us", {
+      duration: 1,
+      ease: "power1.out",
+      y: -200,
+      opacity: 0,
+      scale: 0.5,
+    });
+  },
 };
 </script>
 
 <template>
   <div class="my-10">
-    <h1 class="text-center font-bold text-6xl">Contac Us</h1>
+    <h1 class="text-center font-bold text-6xl contact-us">Contact Us</h1>
     <p class="text-lg mt-6 text-center">
       Scrivici per maggiori informazioni e collaborazioni.
     </p>

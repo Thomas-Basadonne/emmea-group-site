@@ -1,7 +1,7 @@
 <script>
 import JumboApp from "./_partials/JumboApp.vue";
 import SliderApp from "./_partials/SliderApp.vue";
-
+import { gsap } from "gsap/gsap-core";
 export default {
   data() {
     return {
@@ -13,6 +13,17 @@ export default {
     JumboApp,
     SliderApp,
   },
+
+  mounted() {
+    gsap.to(".word", {
+      color: "#D72323",
+      duration: 2.5,
+      repeat: -1,
+      yoyo: true,
+      delay: 0.8,
+      ease: "linear",
+    });
+  },
 };
 </script>
 
@@ -21,7 +32,9 @@ export default {
   <!-- SEZIONE 1 -->
   <section class="my-10">
     <!-- TITOLO -->
-    <h1 class="text-center font-bold text-6xl">Chi siamo?</h1>
+    <h1 class="text-center font-bold text-6xl">
+      Chi siamo<span class="word">?</span>
+    </h1>
 
     <!-- MAIN CONTENT -->
     <div class="flex flex-row items-start justify-center my-6 flex-wrap">
@@ -214,7 +227,9 @@ export default {
 
   <!-- SEZIONE 2 -->
   <section class="my-10 flex flex-col justify-center items-center">
-    <h2 class="text-center font-bold text-6xl">Che cosa facciamo?</h2>
+    <h2 class="text-center font-bold text-6xl">
+      Che cosa facciamo<span class="word">?</span>
+    </h2>
 
     <div class="w-10/12 md:w-8/12 lg:w-7/12 my-6">
       <div class="flex items-center gap-4">
@@ -301,13 +316,13 @@ export default {
   <!-- SEZIONE 3 -->
   <section class="my-10 flex flex-col items-center justify-center gap-3">
     <div class="w-10/12 md:w-8/12 lg:w-7/12">
-      <h2 class="text-center font-bold text-6xl">Showcase</h2>
+      <h2 class="text-center font-bold text-6xl">
+        Showcase<span class="word">!</span>
+      </h2>
       <p class="text-center text-lg my-5">
         Ecco alcuni esempi dei progetti che abbiamo realizzato. Siamo riusciti a
         suscitare la tua curiosità? Esplora il nostro
-        <router-link
-          to="/portfolio"
-          class="font-black underline transition duration-300 hover:text-dark-red"
+        <router-link to="/portfolio" class="font-black underline word"
           >Portfolio</router-link
         >
         per ottenere una visione completa delle nostre competenze e
